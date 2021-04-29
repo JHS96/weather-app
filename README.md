@@ -1,8 +1,10 @@
-This is a very simple weather app.
+This is a very simple weather app. A live version of the app can be seen [here](https://the-local-weather.herokuapp.com/)
 
 ### To make it work, craete a .env file in the root directory containing:
 
 REACT_APP_WEATHER_API_KEY=your openweathermap.org api key
+
+If you are deploying this app to Heroku (as I have), remember to add your openweathermap.org api key to the "Config Vars" in your Heroku project as well.
 
 ### Run `npm install`
 
